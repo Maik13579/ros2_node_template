@@ -1,5 +1,8 @@
-string request
+# Goal
+string goal_field
 ---
+# Result
 string result
 ---
+# Feedback
 string feedback

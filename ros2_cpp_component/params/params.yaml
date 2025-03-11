@@ -1,0 +1,7 @@
+my_robot:
+  component_container:
+    talker:
+      ros__parameters:
+        publish_rate: 1.0
+        data: "Hello from Talker"
+
