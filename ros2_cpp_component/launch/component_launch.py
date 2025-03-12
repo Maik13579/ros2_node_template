@@ -46,7 +46,8 @@ def generate_launch_description():
                 ]
             ),
         ],
-        output='screen'
+        output='screen',
+        emulate_tty=True # Force unbuffered output like a real terminal
     )
 
     return LaunchDescription([
