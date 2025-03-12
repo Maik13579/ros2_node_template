@@ -15,6 +15,8 @@ namespace demo
     rclcpp::Publisher<ros2_cpp_component_interfaces::msg::CustomMsg>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
     double publish_rate_;
+    std::string data_;
+    int count_;
     };
 
 } // namespace demo
